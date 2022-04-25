@@ -1,0 +1,36 @@
+.timeContainer {
+  // background: #34343d;
+  background: rgba(18, 3, 31, 0.5);
+  border-radius: 10px;
+  height: 42px;
+  width: 341px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      color: rgba(255, 255, 255, 0.6);
+      font-style: normal;
+      margin: 0px 3px;
+      display: block;
+      padding: 3px 10px;
+      cursor: pointer;
+    }
+  }
+}
+.active__duration {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #3617e2;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 600px;
+}

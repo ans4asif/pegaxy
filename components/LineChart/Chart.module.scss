@@ -1,0 +1,32 @@
+.chartBox {
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+}
+.chart__content {
+  padding: 20px;
+}
+.chart__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text__holder {
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    margin-right: 8px;
+  }
+}
+.legends {
+  margin: 20px 0 0 0;
+  width: 365px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // gap: 10px;
+}

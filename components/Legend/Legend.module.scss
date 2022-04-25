@@ -1,0 +1,58 @@
+.legend__holder {
+}
+
+.text__holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  color: #fff !important;
+
+  span {
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-radius: 18px;
+  }
+  h4 {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+  }
+}
+.primary {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #fc69fb;
+}
+.secondary {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #3617e2;
+}
+.tertiary {
+  background: #faee6b;
+}
+
+.percent__holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: #f3726d;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  span {
+    font-size: 33px;
+  }
+}
+.success {
+  color: #5cc489;
+}
